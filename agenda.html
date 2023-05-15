@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <title> Agenda do Docente. </title>
+</head>
+<body>
+    
+    <div id="formulario">
+
+        <form> 
+            <h1> Login usuário </h1>
+
+        <!-- Criação de um imput para o nome, que será armazenado na função nome_loguim, com o id: nome_docente--> 
+        <label> Insira seu nome:  <input type="text" id="nome_docente" name="nome"/></label></br></br>
+            
+        <!-- Criação de um imput para o e-mail, que será armazenado na função email_loguim, com o id: email_docente--> 
+        <label> Insira seu email:  <input type="email" id="email_docente" name="email"/></label></br></br>
+
+        <!-- Criação de um imput para a siape, que será armazenado na função siape_loguim, com o id: siape_docente--> 
+        <label> Insira seu siape:  <input type="text" id="siape_docente" name="siape"/></label></br></br>
+
+        <!-- Criação de um imput para a area, que será armazenado na função area_loguim, com o id: area_docente--> 
+        <label> Insira sua area:  <input type="text" id="area_docente" name="area"/></label></br></br>
+
+        <!-- Criação de um imput para a carga horaria, que será armazenado na função carga_loguim, com o id: carga_docente--> 
+        <label> Insira sua carga carga horaria:  <input type="text" id="carga_docente" name="carga"/></label></br></br>
+        
+        <br><button onclick="login_submit()"> Clique aqui para submete-los. </button><br>
+        <br> <br>
+
+        </form>
+    </div>
+
+    <script src="agenda.js"></script>
+    
+</body>
+</html>

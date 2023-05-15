@@ -1,0 +1,16 @@
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+    
+}
+
+body {
+    color: rgb(250, 248, 248);
+    margin-bottom: 80px;
+}
