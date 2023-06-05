@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarefas2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formularia"> 
+
+        <form id="formAddName">
+            <h1>CADASTRAR TAREFAS</h1>
+    
+            <fieldset>
+    
+            <legend> Cadastramento: </legend><br>
+    
+            <label for="nome"> Nome:</label><br>
+            <input type="text" name="nome"  id="nome"><br> <br>     
+    
+            <label for="atividade"> Atividade:</label><br>
+            <input type="text" name="atividade" id="atividade" ><br><br>
+    
+            <label for="inicio_hora"> Escolha o Horario de inicio do compromisso. </label><br>
+            <input type="time" name="inicio_hora"  id="inicio_hora"> <br> <br>
+                
+            <label for="fim_hora"> Escolha o Horario final do compromisso. </label><br>
+            <input type="time" name="fim_hora" id="fim_hora"> <br> <br>    
+    
+    
+           <p> Dia da Semana:</p>
+            <select name="dias_select" id="dias" >
+                <option value="">Escolha</option>
+                <option value="seg">segunda</option>
+                <option value="terça">terça</option>
+                <option value="qua">quarta</option>
+                <option value="qui">quinta</option>
+                <option value="sex">sexta</option>
+            </select>
+
+            <br><br>
+
+            <label for="cargah"> Carga Horária:</label><br>
+            <select name="cargah_select" id="cargah">
+              <option value="vinte" id="vinte"> 20 horas</option>
+              <option value="quarenta" id="quarenta"> 40 horas</option>
+            </select>
+            <br> <br>
+
+            <button onclick="adicionar()">Adicionar</button>
+
+            <br>
+
+            <p> Para mostrar a diferença entre os horas, sendo o intervalo de tempo temos </p>
+            <button onclick="contador()"> Mostrar.</button>
+
+            
+    
+            <br> <br>
+    
+        </fieldset>
+      </form>
+
+    <script src="tarefas2_0.js"></script>
+
+</body>
+</html>

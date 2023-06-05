@@ -1,0 +1,21 @@
+.formularia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+
+.body {
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
